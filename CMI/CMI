@@ -86,8 +86,8 @@ info:
   WarmUp:
     canceled: '&eCommand was cancelled due to your movement'
     counter: '!actionbar!&6--> &e[time] &6<--'
-    DontMove: '!title!!subtitle!&6Don''t move!'
-  Spawner: '&r[type] Spawner'
+    DontMove: '!title!!subtitle!&6Ära liigu!'
+  Spawner: '&r[type] tekitaja'
   Elevator:
     created: '&eCreated elevator sign'
   CantPlaceSpawner: '&eCan''t place spawner so close to another spawner (&6[range]&e)'
@@ -142,8 +142,8 @@ info:
     cancel.'
   canceledEditingPainting: '&eYou canceled painting editing mode'
   changedPainting: '!actionbar!&eChanged painting to &6[name] &ewith id of &6[id]'
-  noSpam: '!title!&cNo spamming!'
-  noCmdSpam: '!title!&cNo command spamming!'
+  noSpam: '!title!&cÄra korda sõnumeid!'
+  noCmdSpam: '!title!&cÄra korda käskluseid!'
   lookAtSign: '&eLook at sign'
   lookAtBlock: '&eLook at block'
   lookAtEntity: '&eLook at entity'
@@ -246,7 +246,7 @@ info:
     poison: Mürk
     magic: Maagia
     wither: Närbumine
-    falling_block: Kukkuv plokk
+    falling_block: Langev plokk
     thorns: Okkad
     dragon_breath: Draakoni hingeõhk
     custom: Teadmata
@@ -329,106 +329,106 @@ info:
     MODIFIED_WOODED_BADLANDS_PLATEAU: Muudetud metsane kõnnumaa platoo
     MODIFIED_BADLANDS_PLATEAU: Metsane kõnnumaa platoo
   EntityType:
-    area_effect_cloud: Area effect cloud
-    armor_stand: Armor stand
-    arrow: Arrow
-    bat: Bat
-    blaze: Blaze
-    boat: Boat
-    cave_spider: Cave spider
-    chicken: Chicken
-    cod: Cod
-    complex_part: Complex part
-    cow: Cow
+    area_effect_cloud: Mõjupilve ala
+    armor_stand: Rüüalus
+    arrow: Nool
+    bat: Nahkhiir
+    blaze: Lõõm
+    boat: Paat
+    cave_spider: Koopaämblik
+    chicken: Kana
+    cod: Tursk
+    complex_part: Keeruline osa
+    cow: Lehm
     creeper: Creeper
-    dolphin: Dolphin
-    donkey: Donkey
-    dragon_fireball: Dragon fireball
-    dropped_item: Dropped item
-    drowned: Drowned
-    egg: Egg
-    elder_guardian: Elder guardian
+    dolphin: Delfiin
+    donkey: Eesel
+    dragon_fireball: Draakoni tulepall
+    dropped_item: Visatud ese
+    drowned: Uppunu
+    egg: Muna
+    elder_guardian: Vanemkaitsja
     enderman: Enderman
-    endermite: Endermite
-    ender_crystal: Ender crystal
+    endermite: Endermiit
+    ender_crystal: End-kristall
     ender_dragon: Ender dragon
-    ender_pearl: Ender pearl
-    ender_signal: Ender signal
-    evoker: Evoker
-    evoker_fangs: Evoker fangs
-    experience_orb: Experience orb
-    falling_block: Falling block
-    fireball: Fireball
-    firework: Firework
-    fishing_hook: Fishing hook
+    ender_pearl: Enderipärl
+    ender_signal: Enderi silm
+    evoker: Ilmutaja
+    evoker_fangs: Ilmutaja kihvad
+    experience_orb: Kogemuskera
+    falling_block: Langev plokk
+    fireball: Tulepall
+    firework: Ilutulestiku rakett
+    fishing_hook: Õngekork
     ghast: Ghast
-    giant: Giant
-    guardian: Guardian
-    horse: Horse
-    husk: Husk
-    illusioner: Illusioner
-    iron_golem: Iron golem
-    item_frame: Item frame
-    leash_hitch: Leash hitch
-    lightning: Lightning
-    lingering_potion: Lingering potion
-    llama: Llama
-    llama_spit: Llama spit
-    magma_cube: Magma cube
-    minecart: Minecart
-    minecart_chest: Minecart chest
-    minecart_command: Minecart command
-    minecart_furnace: Minecart furnace
-    minecart_hopper: Minecart hopper
-    minecart_mob_spawner: Minecart mob spawner
-    minecart_tnt: Minecart tnt
-    mule: Mule
-    mushroom_cow: Mushroom cow
-    ocelot: Ocelot
-    painting: Painting
-    parrot: Parrot
-    phantom: Phantom
-    pig: Pig
-    pig_zombie: Pig zombie
-    player: Player
-    polar_bear: Polar bear
-    primed_tnt: Primed tnt
-    pufferfish: Pufferfish
-    rabbit: Rabbit
-    salmon: Salmon
-    sheep: Sheep
-    shulker: Shulker
-    shulker_bullet: Shulker bullet
-    silverfish: Silverfish
-    skeleton: Skeleton
-    skeleton_horse: Skeleton horse
-    slime: Slime
-    small_fireball: Small fireball
-    snowball: Snowball
-    snowman: Snowman
-    spectral_arrow: Spectral arrow
-    spider: Spider
-    splash_potion: Splash potion
-    squid: Squid
-    stray: Stray
-    thrown_exp_bottle: Thrown exp bottle
-    tipped_arrow: Tipped arrow
-    trident: Trident
-    tropical_fish: Tropical fish
-    turtle: Turtle
-    unknown: Unknown
-    vex: Vex
-    villager: Villager
-    vindicator: Vindicator
-    weather: Weather
-    witch: Witch
+    giant: Hiiglane
+    guardian: Kaitsja
+    horse: Hobune
+    husk: Kuivik
+    illusioner: Trikielanik
+    iron_golem: Raudgolem
+    item_frame: Esemeraam
+    leash_hitch: Köiesõlm
+    lightning: Välgunool
+    lingering_potion: Pikaldane võlujook
+    llama: Laama
+    llama_spit: Laama sülg
+    magma_cube: Magmakuup
+    minecart: Kaevanduskäru
+    minecart_chest: Kirstuga kaevanduskäru
+    minecart_command: Käsuplokiga kaevanduskäru
+    minecart_furnace: Ahjuga kaevanduskäru
+    minecart_hopper: Püüdjaga kaevanduskäru
+    minecart_mob_spawner: Tekitajaga kaevanduskäru
+    minecart_tnt: Dünamiidiga kaevanduskäru
+    mule: Muul
+    mushroom_cow: Mooshroom
+    ocelot: Otselot
+    painting: Maal
+    parrot: Papagoi
+    phantom: Fantoom
+    pig: Siga
+    pig_zombie: Zombi-seamees
+    player: Mängija
+    polar_bear: Jääkaru
+    primed_tnt: Süüdatud dünamiit
+    pufferfish: Kerakala
+    rabbit: Küülik
+    salmon: Lõhe
+    sheep: Lammas
+    shulker: Šulker
+    shulker_bullet: Šulkeri kuul
+    silverfish: Majasoomukas
+    skeleton: Luukere
+    skeleton_horse: Luukerehobune
+    slime: Limus
+    small_fireball: Väike tulepall
+    snowball: Lumepall
+    snowman: Lumegolem
+    spectral_arrow: Spektraalne nool
+    spider: Ämblik
+    splash_potion: Pritsitav võlujook
+    squid: Kalmaar
+    stray: Eksleja
+    thrown_exp_bottle: Visatud loitsimispudel
+    tipped_arrow: Mõjuga nool
+    trident: Kolmhark
+    tropical_fish: Troopiline kala
+    turtle: Kilpkonn
+    unknown: Tundmatu
+    vex: Pahandaja
+    villager: Külaelanik
+    vindicator: Õigustaja
+    weather: Ilm
+    witch: Nõid
     wither: Wither
-    wither_skeleton: Wither skeleton
-    wither_skull: Wither skull
-    wolf: Wolf
-    zombie: Zombie
-    zombie_horse: Zombie horse
-    zombie_villager: Zombie villager
+    wither_skeleton: Wither-luukere
+    wither_skull: Witheri pealuu
+    wolf: Hunt
+    zombie: Zombi
+    zombie_horse: Zombihobune
+    zombie_villager: Zombi-külaelanik
   EnchantAliases:
     protection_fire:
     - FireProtection
