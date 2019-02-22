@@ -1,0 +1,2 @@
+# legendid
+Legendid tõlked
