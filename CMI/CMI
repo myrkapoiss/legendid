@@ -445,15 +445,15 @@ info:
     depth_strider:
     - Sügavuslibiseja
     vanishing_curse:
-    - HääbumiseNeedus
+    - Hääbumise needus
     durability:
     - Murdmatus
     knockback:
     - Tagasilöök
     luck:
-    - MereÕnn
+    - Mere õnn
     binding_curse:
-    - SidumiseNeedus
+    - Sidumise needus
     loot_bonus_blocks:
     - Fortunna
     protection_environmental:
@@ -481,84 +481,84 @@ info:
     thorns:
     - Okkad
     damage_arthropods:
-    - LülijalgseteKirstunael
+    - Lülijalgsete kirstunael
     oxygen:
     - Hingamine
     riptide:
     - Tagasivool
     silk_touch:
-    - SiidjasPuudutus
+    - Siidjas puudutus
     protection_projectile:
-    - ViskekehadeKaitse
+    - Viskekehade kaitse
     impaling:
     - Teibasseajamine
     protection_fall:
-    - SulgkergeKukkumine
+    - Sulgkerge kukkumine
     arrow_damage:
     - Võim
     arrow_infinite:
     - Lõpmatus
   PotionEffectAliases:
     speed:
-    - Speed
+    - Kiirus
     slow:
-    - Slow
+    - Aeglus
     fast_digging:
-    - Fast digging
+    - Nobedus
     slow_digging:
-    - Slow digging
+    - Kaevandusväsimus
     increase_damage:
-    - Increase damage
+    - Tugevus
     heal:
-    - Heal
+    - Kohene tervis
     harm:
-    - Harm
+    - Kohene kahju
     jump:
-    - Jump
+    - Hüppevõimendus
     confusion:
-    - Confusion
+    - Iiveldus
     regeneration:
-    - Regeneration
+    - Taastumine
     damage_resistance:
-    - Damage resistance
+    - Vastupanu
     fire_resistance:
-    - Fire resistance
+    - Tulekindlus
     water_breathing:
-    - Water breathing
+    - Veehingamine
     invisibility:
-    - Invisibility
+    - Nähtamatus
     blindness:
-    - Blindness
+    - Pimedus
     night_vision:
-    - Night vision
+    - Öös nägemine
     hunger:
-    - Hunger
+    - Nälg
     weakness:
-    - Weakness
+    - Nõrkus
     poison:
-    - Poison
+    - Mürk
     wither:
-    - Wither
+    - Närbumine
     health_boost:
-    - Health boost
+    - Lisatervis
     absorption:
-    - Absorption
+    - Neeldumine
     saturation:
-    - Saturation
+    - Küllastus
     glowing:
-    - Glowing
+    - Hõõgumine
     levitation:
-    - Levitation
+    - Õhkukerkimine
     luck:
-    - Luck
+    - Õnn
     unluck:
-    - Unluck
+    - Halb õnn
     slow_falling:
-    - Slow falling
+    - Aeglane langemine
     conduit_power:
-    - Conduit power
+    - Siirdejõud
     dolphins_grace:
-    - Dolphins grace
+    - Delfiini arm
 modify:
   middlemouse: '&2Middle mouse click to edit'
   newItem: '&7Place new item here'
