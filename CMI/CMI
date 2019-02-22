@@ -560,36 +560,36 @@ info:
     dolphins_grace:
     - Delfiini arm
 modify:
-  middlemouse: '&2Middle mouse click to edit'
-  newItem: '&7Place new item here'
+  middlemouse: '&2Muutmiseks keskmine hiireklõps'
+  newItem: '&7Aseta uus ese siia'
   newLine: '&2<NewLine>'
-  newLineHover: '&2Add new line'
+  newLineHover: '&2Lisa uus rida'
   newPage: '&2<NewPage>'
-  newPageHover: '&2Create new page'
+  newPageHover: '&2Loo uus leht'
   removePage: '&c<RemovePage>'
-  removePageHover: '&cRemove page'
+  removePageHover: '&cEemalda leht'
   deleteSymbol: ' &c[X]'
-  deleteSymbolHover: '&cDelete &e[text]'
+  deleteSymbolHover: '&cKustuta &e[text]'
   extraEditSymbol: ' &6!'
   addSymbol: '&2[+]'
-  addSymbolHover: '&2Add new'
+  addSymbolHover: '&2Lisa uus'
   acceptSymbol: ' &2&l[✔]'
-  acceptSymbolHover: '&aAccept'
+  acceptSymbolHover: '&aNõustu'
   denySymbol: ' &4&l[X]'
-  denySymbolHover: '&cDeny'
+  denySymbolHover: '&cKeeldu'
   enabledSymbol: '&2[+]'
   disabledSymbol: '&c[-]'
-  enabled: '&2Enabled'
-  disabled: '&cDisabled'
-  running: '&2Running'
-  paused: '&cPaused'
+  enabled: '&2Lubatud'
+  disabled: '&cKeelatud'
+  running: '&2Käimas'
+  paused: '&cPeatatud'
   editSymbol: '&e✎'
-  editSymbolHover: '&eEdit &6[text]'
+  editSymbolHover: '&eMuuda &6[text]'
   listUpSymbol: '&6⇑'
-  listUpSymbolHover: '&eUp'
+  listUpSymbolHover: '&eÜles'
   listDownSymbol: '&6⇓'
-  listDownSymbolHover: '&eDown'
-  ChangeHover: '&eClick to change'
+  listDownSymbolHover: '&eAlla'
+  ChangeHover: '&eKlõpsa muutmiseks'
   commandTitle: ' &e--- &6[name] &e---'
   commandList: ' &e[command]  '
   emptyLine: '&7[Empty line]'
@@ -608,49 +608,49 @@ teleportation:
   relocation: '!actionbar!&4Your teleport location was obstructed. You have been teleported
     to a safe location.'
 afk:
-  'on': '&6AFK'
-  'off': '&7Playing'
-  left: '&6[playerDisplayName] &eis no longer AFK'
-  MayNotRespond: '&ePlayer is AFK and may not respond'
-  MayNotRespondStaff: '&eStaff member is AFK and may not respond. Try contacting us
-    through discord'
+  'on': '&6Eemal'
+  'off': '&7Mängib'
+  left: '&6[playerDisplayName] &epole enam eemal'
+  MayNotRespond: '&eMängija on eemal ja ei pruugi vastata'
+  MayNotRespondStaff: '&eMeeskonnaliige on eemal ja ei pruugi vastata. Proovi meiega ühendust võtta
+    Discordi kaudu'
 BossBar:
   hpBar: '&f[victim] &e[max]&f/&e[current] &f(&c-[damage]&f)'
 Potion:
-  Effects: '&8Potion effects'
-  List: '&e[PotionName] [PotionAmplifier] &eDuration: &e[LeftDuration] &esec'
-  NoPotions: '&eNone'
+  Effects: '&8Võlujoogimõjud'
+  List: '&e[PotionName] [PotionAmplifier] &eKestus: &e[LeftDuration] &es'
+  NoPotions: '&ePuuduvad'
 Information:
-  Title: '&8Players information'
-  Health: '&eHealth: &6[Health]/[maxHealth]'
-  Hunger: '&eHunger: &6[Hunger]'
-  Saturation: '&eSaturation: &6[Saturation]'
-  Exp: '&eExp: &6[Exp]'
-  NotEnoughExp: '&eNot enough exp: &6[Exp]'
-  NotEnoughExpNeed: '&eNot enough exp: &6[Exp]/[need]'
-  NotEnoughVotes: '&eNot enough votes: &6[votes]'
-  BadGameMode: '&cYou can''t do this in your current game mode'
-  BadArea: '&cYou can''t perform this action in this area'
-  GameMode: '&eGameMode: &6[GameMode]'
-  GodMode: '&eGodMode: &6[GodMode]'
-  Flying: '&eFlying: &6[Flying]'
-  CanFly: '&eCan Fly: &6[CanFly]'
+  Title: '&8Mängija teave'
+  Health: '&eTervis: &6[Health]/[maxHealth]'
+  Hunger: '&eNälg: &6[Hunger]'
+  Saturation: '&eKüllastus: &6[Saturation]'
+  Exp: '&eKogemusp.: &6[Exp]'
+  NotEnoughExp: '&ePole piisavalt kogemusp.: &6[Exp]'
+  NotEnoughExpNeed: '&ePole piisavalt kogemusp.: &6[Exp]/[need]'
+  NotEnoughVotes: '&ePole piisavalt hääli: &6[votes]'
+  BadGameMode: '&cSa ei saa seda praeguses mängurežiimis teha'
+  BadArea: '&cSa ei saa seda tegevust siin alas teha'
+  GameMode: '&eMängurežiim: &6[GameMode]'
+  GodMode: '&eJumalarežiim: &6[GodMode]'
+  Flying: '&eLendab: &6[Flying]'
+  CanFly: '&eSaab lennata: &6[CanFly]'
   Uuid: '&6[uuid]'
-  ip: '&eIp address: &6[address]'
-  FirstConnection: '&eFirst connection: &6[time]'
-  Lastseen: '&eLast seen: &6[time]'
-  Onlinesince: '&eOnline since: &6[time]'
-  Money: '&eBalance: &6[money]'
-  Group: '&eGroup: &6[group]'
+  ip: '&eIP-aadress: &6[address]'
+  FirstConnection: '&eEsimene ühendus: &6[time]'
+  Lastseen: '&eViimati nähtud: &6[time]'
+  Onlinesince: '&eVõrgus alates: &6[time]'
+  Money: '&eRahasumma: &6[money]'
+  Group: '&eGrupp: &6[group]'
 econ:
-  disabled: '&cCan''t use this command while economy support is disabled'
-  noMoney: '&cYou have no money'
+  disabled: '&cSa ei saa seda käsklust kasutada kui ökonoomia tugi on keelatud'
+  noMoney: '&cSul pole raha'
 Elytra:
-  Speed: '&eSpeed: &6[speed]&ekm/h'
+  Speed: '&eKiirus: &6[speed]&ekm/h'
   SpeedBoost: ' &a+ '
   SpeedSuperBoost: ' &2+ '
-  CanUse: '&cCan''t equip elytra without permission!'
-  Charging: '&eCharging &f[percentage]&e%'
+  CanUse: '&cPuudub luba kattetiibade kandmiseks!'
+  Charging: '&eLaadimine &f[percentage]&e%'
 Selection:
   SelectPoints: '&cSelect 2 points with selection tool! AKA: &6[tool]'
   PrimaryPoint: '&ePlaced &6Primary &eSelection Point [point]'
@@ -672,7 +672,7 @@ Location:
   Pitch: '&ePitch: &6[pitch]'
   Yaw: '&eYaw: &6[yaw]'
 Ender:
-  Title: '&7Open ender chest'
+  Title: '&7Ava enderikirst'
 Chat:
   localPrefix: ''
   shoutPrefix: '&c[S]&r'
@@ -689,15 +689,15 @@ Chat:
 command:
   help:
     output:
-      usage: '&eUsage: &7%usage%'
+      usage: '&eKasutus: &7%usage%'
       cmdInfoFormat: '[command] &f- &e[description]'
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'
       explanation: '&e * [explanation]'
-      title: '&e------ ======= &6Help&e &e======= ------'
+      title: '&e------ ======= &6Abi&e &e======= ------'
   nocmd:
     help:
-      info: '&eShows all available commands'
+      info: '&eKuvab kõiki saadaolevaid käskluseid'
       args: ''
   actionbarmsg:
     help:
@@ -3316,128 +3316,128 @@ command:
       distanceKm: '&e[value]&6km'
       list: '&e[name]:&6[amount]'
       listCover: '&e([list]&e)'
-      Quit: '&eGames Quit: &6[value]'
-      PlayTime: '&eTime Played: &6[value]'
-      SneakTime: '&eSneak time: &6[value]'
-      Sleep: '&eSleep in bed: &6[value]'
-      Joined: '&eJoined on: &6[time]'
-      Jumps: '&eJumps: &6[value]'
-      SinceDeath: '&eSince Last Death: &6[value]'
-      Deaths: '&eNumber of Deaths: &6[value]'
-      DeathsByMonsters: '&eKilled by monsters: &6[value]'
-      TotalDistance: '&eTotal distance traveled: &6[value]'
-      Walk: '&eWalked: &6[value]'
-      Crouch: '&eCrouched: &6[value]'
-      Sprint: '&eSprinted: &6[value]'
-      Swim: '&eSwum: &6[value]'
-      Fall: '&eFallen: &6[value]'
-      Climb: '&eClimbed: &6[value]'
-      Fly: '&eFlown: &6[value]'
-      Dive: '&eDove: &6[value]'
-      Minecart: '&eMinecart: &6[value]'
-      Boat: '&eBoat: &6[value]'
-      Pig: '&ePig: &6[value]'
-      Horse: '&eHorse: &6[value]'
-      Elytra: '&eElytra: &6[value]'
-      Damage: '&eDamage &6[dealt] [taken]'
-      DamageDealt: '&eDealt: &6[value]'
-      DamageTaken: '&eTaken: &6[value]'
-      JUMP: '&eJumps: &6[value]'
-      Kills: '&eKills &6'
-      KillsMob: '&eMob: &6[value]'
-      KillsPlayer: ' &ePlayer: &6[value]'
-      Blocks: '&eBlocks &6'
-      BlocksMined: '&eMined: &6[value]'
-      BlocksPlaced: ' &ePlaced: &6[value]'
-      Items: '&eItems &6'
-      ItemsUsed: '&eUse:&6[value]'
-      ItemsDrop: '&eDrop:&6[value]'
-      ItemsPicked: '&ePick:&6[value]'
-      ItemsBroken: '&eBroke:&6[value]'
-      ItemsCrafted: ' &eCraft:&6[value]'
-      ItemsEnchanted: ' &eEnchant:&6[value]'
-      Opened: '&eOpened &6[list]'
-      OpenChest: '&eChest:&6[value]'
-      OpenEnder: '&eEnderChest:&6[value]'
-      OpenShulker: '&eShulkerBox:&6[value]'
-      Interacted: '&eInteracted &6[list]'
-      InteractBeacon: '&eBeacon:&6[value]'
-      InteractBrewingStand: '&eBrewStand:&6[value]'
-      InteractCraftTable: '&eCraftTable:&6[value]'
-      InteractFurnace: '&eFurnace:&6[value]'
-      Inspected: '&eInspected &6[list]'
-      InspectDispenser: '&eDispenser:&6[value]'
-      InspectDropper: '&eDropper:&6[value]'
-      InspectHopper: '&eHopper:&6[value]'
+      Quit: '&eMängust lahkumisi: &6[value]'
+      PlayTime: '&eMängitud aeg: &6[value]'
+      SneakTime: '&eHiilitud aeg: &6[value]'
+      Sleep: '&eVoodis magamise kordi: &6[value]'
+      Joined: '&eLiitus: &6[time]'
+      Jumps: '&eHüppeid: &6[value]'
+      SinceDeath: '&eAega viimasest surmast: &6[value]'
+      Deaths: '&eSurmasid: &6[value]'
+      DeathsByMonsters: '&eKoletiste poolt tapetud: &6[value]'
+      TotalDistance: '&eLäbitud vahemaa kokku: &6[value]'
+      Walk: '&eKõnnitud: &6[value]'
+      Crouch: '&eHiilitud: &6[value]'
+      Sprint: '&eJoostud: &6[value]'
+      Swim: '&eUjutud: &6[value]'
+      Fall: '&eKukutud: &6[value]'
+      Climb: '&eRonitud: &6[value]'
+      Fly: '&eLennatud: &6[value]'
+      Dive: '&eSukeldatud: &6[value]'
+      Minecart: '&eKaevanduskäru: &6[value]'
+      Boat: '&ePaat: &6[value]'
+      Pig: '&eSiga: &6[value]'
+      Horse: '&eHobune: &6[value]'
+      Elytra: '&eKattetiivad: &6[value]'
+      Damage: '&eKahju &6[dealt] [taken]'
+      DamageDealt: '&ePõhjustatud: &6[value]'
+      DamageTaken: '&eSaadud: &6[value]'
+      JUMP: '&eHüppeid: &6[value]'
+      Kills: '&eTapmisi &6'
+      KillsMob: '&eElukaid: &6[value]'
+      KillsPlayer: ' &eMängijaid: &6[value]'
+      Blocks: '&ePlokke &6'
+      BlocksMined: '&eKaevandatud: &6[value]'
+      BlocksPlaced: ' &eAsetatud: &6[value]'
+      Items: '&eEsemeid &6'
+      ItemsUsed: '&eKasutatud:&6[value]'
+      ItemsDrop: '&eVisatud:&6[value]'
+      ItemsPicked: '&eKorjatud:&6[value]'
+      ItemsBroken: '&eLõhutud:&6[value]'
+      ItemsCrafted: ' &eMeisterdatud:&6[value]'
+      ItemsEnchanted: ' &eLoitsitud:&6[value]'
+      Opened: '&eAvatud &6[list]'
+      OpenChest: '&eKirste:&6[value]'
+      OpenEnder: '&eEnderikirste:&6[value]'
+      OpenShulker: '&eŠulkerikaste:&6[value]'
+      Interacted: '&eTegutsetud &6[list]'
+      InteractBeacon: '&eMajakaga:&6[value]'
+      InteractBrewingStand: '&ePruulimisalusega:&6[value]'
+      InteractCraftTable: '&eMeisterduslauaga:&6[value]'
+      InteractFurnace: '&eAhjuga:&6[value]'
+      Inspected: '&eLäbiotsitud &6[list]'
+      InspectDispenser: '&eJaotureid:&6[value]'
+      InspectDropper: '&eHeitjaid:&6[value]'
+      InspectHopper: '&ePüüdjaid:&6[value]'
       Statistics:
-        LEAVE_GAME: Game quit
-        PLAY_ONE_TICK: Play time
-        TIME_SINCE_DEATH: From last death
-        TIME_SINCE_REST: From last rest
-        SNEAK_TIME: Sneak time
-        ACOUNT_AGE: Account age
-        TRAVEL: Travel
-        WALK_ONE_CM: Walk
-        CROUCH_ONE_CM: Sneak
-        SPRINT_ONE_CM: Sprint
-        SWIM_ONE_CM: Swim
-        FALL_ONE_CM: Fall
-        CLIMB_ONE_CM: Climb
-        FLY_ONE_CM: Fly
-        DIVE_ONE_CM: Dive
-        WALK_UNDER_WATER_ONE_CM: Walk under water
-        WALK_ON_WATER_ONE_CM: Walk on water
-        MINECART_ONE_CM: Minecart travel
-        BOAT_ONE_CM: Boat travel
-        PIG_ONE_CM: Pig travel
-        HORSE_ONE_CM: Horse travel
-        AVIATE_ONE_CM: Elytra travel
-        JUMP: Jump
-        DAMAGE_DEALT: Damage dealt
-        DAMAGE_TAKEN: Damage taken
-        DAMAGE_DEALT_ABSORBED: Damage dealt absorbed
-        DAMAGE_DEALT_RESISTED: Damage dealt resisted
-        DAMAGE_BLOCKED_BY_SHIELD: Damage blocked by shield
-        DAMAGE_ABSORBED: Damage absorbed
-        DAMAGE_RESISTED: Damage resisted
-        DEATHS: Deaths
-        ENTITY_KILLED_BY: Killed by
-        MOB_KILLS: Mob kills
-        PLAYER_KILLS: Player kills
-        ITEM_ENCHANTED: Item enchanted
-        ANIMALS_BRED: Animals bred
-        FISH_CAUGHT: Fish caught
-        TALKED_TO_VILLAGER: Talked to villager
-        TRADED_WITH_VILLAGER: Traded with villager
-        CAKE_SLICES_EATEN: Cake slices eaten
-        CAULDRON_FILLED: Cauldron filled
-        CAULDRON_USED: Couldron used
-        ARMOR_CLEANED: Armor cleaned
-        BANNER_CLEANED: Banner cleaned
-        BREWINGSTAND_INTERACTION: Brewing stand interactions
-        BEACON_INTERACTION: Beacon interactions
-        CRAFTING_TABLE_INTERACTION: Crafting table interactions
-        FURNACE_INTERACTION: Furnace interactions
-        DISPENSER_INSPECTED: Dispenser inspected
-        DROPPER_INSPECTED: Dropper inspected
-        HOPPER_INSPECTED: Hopper inspected
-        CHEST_OPENED: Chest open
-        TRAPPED_CHEST_TRIGGERED: Trapped chest triggered
-        ENDERCHEST_OPENED: Ender chest opened
-        NOTEBLOCK_PLAYED: Noteblock played
-        NOTEBLOCK_TUNED: Noteblock tuned
-        FLOWER_POTTED: Flower potted
-        RECORD_PLAYED: Record played
-        SLEEP_IN_BED: Slept in bed
-        SHULKER_BOX_OPENED: Shulker box opened
-        CLEAN_SHULKER_BOX: Shulker box cleaned
-        DROP: Item dropped
-        MINE_BLOCK: Blocks mined
-        BREAK_ITEM: Item breaks
-        CRAFT_ITEM: Item crafts
-        USE_ITEM: Items used
-        PICKUP: Item pickups
-        KILL_ENTITY: Monster kills
+        LEAVE_GAME: Mängust lahkumisi
+        PLAY_ONE_TICK: Mängitud aeg
+        TIME_SINCE_DEATH: Aega viimasest surmast
+        TIME_SINCE_REST: Aega viimasest magamisest
+        SNEAK_TIME: Hiilitud aeg
+        ACOUNT_AGE: Konto aeg
+        TRAVEL: Läbitud vahemaa
+        WALK_ONE_CM: Kõnnitud vahemaa
+        CROUCH_ONE_CM: Hiilitud vahemaa
+        SPRINT_ONE_CM: Joostud vahemaa
+        SWIM_ONE_CM: Ujutud vahemaa
+        FALL_ONE_CM: Kukutud vahemaa
+        CLIMB_ONE_CM: Ronitud vahemaa
+        FLY_ONE_CM: Lennatud vahemaa
+        DIVE_ONE_CM: Sukeldatud vahemaa
+        WALK_UNDER_WATER_ONE_CM: Vee all kõnnitud vahemaa
+        WALK_ON_WATER_ONE_CM: Vee peal kõnnitud vahemaa
+        MINECART_ONE_CM: Kaevanduskäruga läbitud vahemaa
+        BOAT_ONE_CM: Paadiga läbitud vahemaa
+        PIG_ONE_CM: Seaga läbitud vahemaa
+        HORSE_ONE_CM: Hobusega läbitud vahemaa
+        AVIATE_ONE_CM: Kattetiibadega läbitud vahemaa
+        JUMP: Hüppeid
+        DAMAGE_DEALT: Kahju põhjustatud
+        DAMAGE_TAKEN: Kahju saadud
+        DAMAGE_DEALT_ABSORBED: Neeldunud kahju põhjustatud
+        DAMAGE_DEALT_RESISTED: Tõkestatud kahju põhjustatud
+        DAMAGE_BLOCKED_BY_SHIELD: Kilbiga blokeeritud kahju
+        DAMAGE_ABSORBED: Neeldunud kahju
+        DAMAGE_RESISTED: Tõkestatud kahju
+        DEATHS: Surmasid
+        ENTITY_KILLED_BY: Tapetud olemi poolt:
+        MOB_KILLS: Elukaid tapetud
+        PLAYER_KILLS: Mängijaid tapetud
+        ITEM_ENCHANTED: Esemeid loitsitud
+        ANIMALS_BRED: Loomi paaritatud
+        FISH_CAUGHT: Kalu püütud
+        TALKED_TO_VILLAGER: Külaelanikega räägitud
+        TRADED_WITH_VILLAGER: Külaelanikega kaubeldud
+        CAKE_SLICES_EATEN: Koogiviile söödud
+        CAULDRON_FILLED: Padasid täidetud
+        CAULDRON_USED: Vett pajast võetud
+        ARMOR_CLEANED: Rüü osi puhastatud
+        BANNER_CLEANED: Plakateid puhastatud
+        BREWINGSTAND_INTERACTION: Pruulimisalusega tegutsemisi
+        BEACON_INTERACTION: Majakaga tegutsemisi
+        CRAFTING_TABLE_INTERACTION: Meisterduslauaga tegutsemisi
+        FURNACE_INTERACTION: Ahjuga tegutsemisi
+        DISPENSER_INSPECTED: Jaotureid läbiotsitud
+        DROPPER_INSPECTED: Heitjaid läbiotsitud
+        HOPPER_INSPECTED: Püüdjaid läbiotsitud
+        CHEST_OPENED: Kirste avatud
+        TRAPPED_CHEST_TRIGGERED: Püüniskirste käivitatud
+        ENDERCHEST_OPENED: Enderikirste avatud
+        NOTEBLOCK_PLAYED: Noodiplokke mängitud
+        NOTEBLOCK_TUNED: Noodiplokke häälestatud
+        FLOWER_POTTED: Taimi potti istutatud
+        RECORD_PLAYED: Muusikaplaate mängitud
+        SLEEP_IN_BED: Voodis magamise kordi
+        SHULKER_BOX_OPENED: Šulkerikaste avatud
+        CLEAN_SHULKER_BOX: Šulkerikaste puhastatud
+        DROP: Esemeid maha visatud
+        MINE_BLOCK: Plokke kaevandatud
+        BREAK_ITEM: Esemeid lõhutud
+        CRAFT_ITEM: Esemeid meisterdatud
+        USE_ITEM: Esemeid kasutatud
+        PICKUP: Esemeid korjatud
+        KILL_ENTITY: Koletisi tapetud
   statsedit:
     help:
       info: '&eEdit players statistics'
