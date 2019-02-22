@@ -3456,11 +3456,11 @@ command:
       CpuUsage: ' &eCpu usage: &6[cpuusage]% &e(&6[cores] cores&e)'
       Uptime:
         main: ' &eUptime: '
-        weeks: '&e[weeks] &6weeks '
-        days: '&e[days] &6days '
-        hours: '&e[hours] &6hours '
-        mins: '&e[mins] &6mins '
-        secs: '&e[secs] &6secs '
+        weeks: '&e[weeks] &6nädalat '
+        days: '&e[days] &6päeva '
+        hours: '&e[hours] &6tundi '
+        mins: '&e[mins] &6min '
+        secs: '&e[secs] &6s '
       MemoryUsage: ' &eMemory usage: &6[percent]% &e(&6[current]&e/&6[max] MB&e)'
       MemoryUsageHover: "&fFree: &7[free] \n&fAllocated: &7[allocated] \n&fMax: &7[max]\
         \ \n&fTotal: &7[total]"
