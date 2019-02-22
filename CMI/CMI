@@ -431,74 +431,73 @@ info:
     zombie_villager: Zombi-külaelanik
   EnchantAliases:
     protection_fire:
-    - FireProtection
+    - Tulekaitse
     damage_all:
-    - Sharpness
+    - Teravus
     arrow_fire:
-    - Flame
+    - Leek
     water_worker:
-    - AquaAffinity
+    - Veetõmme
     arrow_knockback:
-    - Punch
+    - Löök
     loyalty:
-    - LOYALTY
+    - Lojaalsus
     depth_strider:
-    - DepthStrider
+    - Sügavuslibiseja
     vanishing_curse:
-    - VanishingCurse
+    - HääbumiseNeedus
     durability:
-    - Unbreaking
+    - Murdmatus
     knockback:
-    - Knockback
+    - Tagasilöök
     luck:
-    - Luck
+    - MereÕnn
     binding_curse:
-    - BindingCurse
+    - SidumiseNeedus
     loot_bonus_blocks:
-    - Fortune
+    - Fortunna
     protection_environmental:
-    - Protection
+    - Kaitse
     dig_speed:
-    - Efficiency
+    - Tõhusus
     mending:
-    - Mending
+    - Paikamine
     frost_walker:
-    - FrostWalker
+    - Härmatiskõndija
     lure:
-    - Lure
+    - Sööt
     loot_bonus_mobs:
-    - Looting
+    - Saagikogumine
     protection_explosions:
-    - BlastProtection
+    - Plahvatuskaitse
     damage_undead:
-    - Smite
+    - Hoop
     fire_aspect:
-    - FireAspect
+    - Tulevõim
     channeling:
-    - CHANNELING
+    - Kanaliseerimine
     sweeping_edge:
-    - SweepingEdge
+    - PühkivÄär
     thorns:
-    - Thorns
+    - Okkad
     damage_arthropods:
-    - BaneOfArthropods
+    - LülijalgseteKirstunael
     oxygen:
-    - Respiration
+    - Hingamine
     riptide:
-    - RIPTIDE
+    - Tagasivool
     silk_touch:
-    - SilkTouch
+    - SiidjasPuudutus
     protection_projectile:
-    - ProjectileProtection
+    - ViskekehadeKaitse
     impaling:
-    - IMPALING
+    - Teibasseajamine
     protection_fall:
-    - FallProtection
-    - FeatherFalling
+    - SulgkergeKukkumine
     arrow_damage:
-    - Power
+    - Võim
     arrow_infinite:
-    - Infinity
+    - Lõpmatus
   PotionEffectAliases:
     speed:
     - Speed
