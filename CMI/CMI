@@ -54,29 +54,29 @@ info:
   prefix: '&7[&aLegendid&7] '
   NoPermission: '&cYou don''t have permission!'
   NoPlayerPermission: '&c[playerName] doesn''t have permission for: [permission]'
-  Ingame: '&cYou can only use this in game!'
-  NoInformation: '&cNo information found!'
+  Ingame: '&cSa saad seda kasutada ainult mängusiseselt!'
+  NoInformation: '&cTeavet ei leitud!'
   Console: '&6Server'
-  FromConsole: '&cYou can only use this in the console!'
-  NotOnline: '&cThe player is not online!'
-  NobodyOnline: '&cThere is no one online!'
+  FromConsole: '&cSa saad seda kasutada ainult konsoolis!'
+  NotOnline: '&cSee mängija pole võrgus!'
+  NobodyOnline: '&cKedagi pole võrgus!'
   Same: '&cCan''t open your own inventory for editing!'
   cantLoginWithDifCap: '&cCan''t login with different name capitalization! Old name:
     &e[oldName]&c. Current: &e[currentName]'
   Searching: '&eSearching for player data, please wait, this can take some time to
     finish!'
-  NoPlayer: '&cCan''t find player with this name!'
-  NoCommand: '&cThere is no command by this name!'
+  NoPlayer: '&cSelle nimega mängija puudub!'
+  NoCommand: '&cSelle nimega käsklus puudub!'
   cantFindCommand: '&5Couldn''t find &7[%1]&5 command, did you mean &7[%2]&5?'
   PurgeNotEnabled: '&cPurge function is not enabled in config file!'
   FeatureNotEnabled: '&cThis feature is not enabled!'
   versionNotSupported: '&cServer version is not supported for this feature'
-  clickToTeleport: '&eClick to teleport'
-  UseInteger: '&4Please use numbers!'
-  UseBoolean: '&4Please use True or False!'
-  NoLessThan: '&4Number can''t be less than [amount]!'
-  NoMoreThan: '&4Value can''t be more than [amount]'
-  NoGameMode: '&cPlease use 0/1/2/3 or Survival/Creative/Adventure/Spectator or s/c/a/sp!'
+  clickToTeleport: '&eKlõpsa teleporteerumiseks'
+  UseInteger: '&4Palun kasuta arve!'
+  UseBoolean: '&4Palun kasuta True või False!'
+  NoLessThan: '&4Arv ei saa olla väiksem kui [amount]!'
+  NoMoreThan: '&4Arv ei saa olla suurem kui [amount]'
+  NoGameMode: '&cPalun kasuta 0/1/2/3 või Survival/Creative/Adventure/Spectator või s/c/a/sp!'
   NoWorld: '&4Can''t find world with this name!'
   IncorrectLocation: '&4Location defined incorrectly!'
   NameChange: '&6[playerDisplayName] &elogged in, also known as: &6[namelist]'
@@ -86,31 +86,31 @@ info:
   WarmUp:
     canceled: '&eCommand was cancelled due to your movement'
     counter: '!actionbar!&6--> &e[time] &6<--'
-    DontMove: '!title!!subtitle!&6Don''t move!'
-  Spawner: '&r[type] Spawner'
+    DontMove: '!title!!subtitle!&6Ära liigu!'
+  Spawner: '&r[type] tekitaja'
   Elevator:
     created: '&eCreated elevator sign'
   CantPlaceSpawner: '&eCan''t place spawner so close to another spawner (&6[range]&e)'
   ChunksLoading: '&eWorld chunk data is still being loaded. Please wait a bit and
     try again.'
-  ShulkerBox: Shulker Box
-  CantuseShulkerBox: '&cCan''t use shulker box while you are in combat with player.
+  ShulkerBox: Šulkerikast
+  CantuseShulkerBox: '&cŠulkerikasti ei saa kasutada teise mängijaga võitlemise ajal.
     Wait: [time]'
-  Show: '&eShow'
-  Remove: '&cRemove'
-  Back: '&eBack'
-  Forward: '&eForward'
-  Update: '&eUpdate'
-  Save: '&eSave'
-  Delete: '&cDelate'
-  Click: '&eClick'
-  PasteOld: '&ePaste old'
-  ClickToPaste: '&eClick to paste into chat'
+  Show: '&eKuva'
+  Remove: '&cEemalda'
+  Back: '&eTagasi'
+  Forward: '&eEdasi'
+  Update: '&eUuenda'
+  Save: '&eSalvesta'
+  Delete: '&cKustuta'
+  Click: '&eKlõpsa'
+  PasteOld: '&eKleebi vana'
+  ClickToPaste: '&eKlõpsa vestlusse kleepimiseks'
   CantTeleportWorld: '&eYou can''t teleport to this world'
   CantTeleport: '&eYou can''t teleport because you have too many limited items. Scroll
     over this line to see the maximum amount of items allowed.'
   teleported: '&eYou have been teleported.'
-  BlackList: '&e[material] [amount] &6Max: [max]'
+  BlackList: '&e[material] [amount] &6Maks: [max]'
   PlayerSpliter: '&e----- &6[playerDisplayName] &e-----'
   Spliter: '&e--------------------------------------------------'
   ProgressBarFill: '&2▏'
@@ -134,7 +134,7 @@ info:
   flyingToHigh: '&cYou can''t fly so high, max height is &6[max]&c!'
   specializedItemFail: '&cCan''t determine specialized item requirement by value:
     &7[value]'
-  sunSpeeding: Sleeping [count] of [total] [hour] hour [speed]X speed
+  sunSpeeding: Magajaid [count] / [total] kell [hour] kiirusega [speed]X
   sunSpeedingTitle: '&7[hour]'
   sunSpeedingSubTitle: '&f[count]&7/&f[total] &7(&f[speed]X&7)'
   notSet: not set
@@ -142,8 +142,8 @@ info:
     cancel.'
   canceledEditingPainting: '&eYou canceled painting editing mode'
   changedPainting: '!actionbar!&eChanged painting to &6[name] &ewith id of &6[id]'
-  noSpam: '!title!&cNo spamming!'
-  noCmdSpam: '!title!&cNo command spamming!'
+  noSpam: '!title!&cÄra korda sõnumeid!'
+  noCmdSpam: '!title!&cÄra korda käskluseid!'
   lookAtSign: '&eLook at sign'
   lookAtBlock: '&eLook at block'
   lookAtEntity: '&eLook at entity'
@@ -151,30 +151,30 @@ info:
   FirstJoin: '&eTere tulemast &6[playerDisplayName] &eLegendid MC Survivalisse!'
   LogoutCustom: ' &6[playerDisplayName] &elahkus mängust'
   LoginCustom: ' &6[playerDisplayName] &etuli mängu'
-  deathlocation: '&eSa surid @ x:&6[x]&e, y:&6[y]&e, z:&6[z]&e in &6[world]'
+  deathlocation: '&eSa surid asukohas x:&6[x]&e, y:&6[y]&e, z:&6[z]&e maailmas &6[world]'
   bungee:
-    Online: '&6Online'
-    Offline: '&cOffline'
-    not: '&cServer doesn''t belong to bungee network'
-    noserver: '&cCan''t find server by this name!'
+    Online: '&6Võrgus'
+    Offline: '&cVõrguta'
+    not: '&cServer ei kuulu bungee võrku'
+    noserver: '&cSelle nimega serverit ei leitud!'
   variables:
-    Online: '&6Online'
-    Offline: '&cOffline'
-    'True': '&6True'
-    'False': '&cFalse'
-    Enabled: '&6Enabled'
-    Disabled: '&cDisabled'
-    survival: '&6Survival'
-    creative: '&6Creative'
-    adventure: '&6Adventure'
-    spectator: '&6Spectator'
-    flying: '&6Flying'
-    notflying: '&6Not flying'
+    Online: '&6Võrgus'
+    Offline: '&cVõrguta'
+    'True': '&6Tõene'
+    'False': '&cVäär'
+    Enabled: '&6Lubatud'
+    Disabled: '&cKeelatud'
+    survival: '&6Ellujäämine'
+    creative: '&6Loominguline'
+    adventure: '&6Seiklemine'
+    spectator: '&6Pealtvaatamine'
+    flying: '&6Lendab'
+    notflying: '&6Ei lenda'
   noSchedule: '&cSchedule by this name is not found'
   totem:
-    cooldown: '&eTotem cooldown: [time]'
-    warmup: '&eTotem effect: [time]'
-    cantConsume: '&eTotem usage was denied due to its cooldown time'
+    cooldown: '&eTootemi viiteaeg: [time]'
+    warmup: '&eTootemi efekt: [time]'
+    cantConsume: '&eTootemi kasutus keelati selle viiteaja tõttu'
   InventorySave:
     info: '&8Info: &8[playerDisplayName]'
     saved: '&e[time] &eInventory saved with id: &e[id]'
@@ -196,401 +196,400 @@ info:
     PreviousInventory: '&ePrevious inventory'
     Editable: '&eEdit mode enabled'
     NonEditable: '&eEdit mode disabled'
-  years: '&e[years] &6years '
-  oneYear: '&e[years] &6year '
-  day: '&e[days] &6days '
-  oneDay: '&e[days] &6day '
-  hour: '&e[hours] &6hours '
-  oneHour: '&e[hours] &6hour '
+  years: '&e[years] &6aastat '
+  oneYear: '&e[years] &6aasta '
+  day: '&e[days] &6päeva '
+  oneDay: '&e[days] &6päev '
+  hour: '&e[hours] &6tundi '
+  oneHour: '&e[hours] &6tund '
   min: '&e[mins] &6min '
-  sec: '&e[secs] &6sec '
-  vanishSymbolOn: '&8[&7H&8]&r'
+  sec: '&e[secs] &6s '
+  vanishSymbolOn: '&8[&7P&8]&r'
   vanishSymbolOff: ''
-  afkSymbolOn: '&8[&7Afk&8]&r'
+  afkSymbolOn: '&8[&7Eemal&8]&r'
   afkSymbolOff: ''
-  prevPage: '&2----<< &6Prev '
-  prevPageGui: '&6Previous page '
-  prevPageClean: '&6Prev '
-  prevPageOff: '&2----<< &7Prev '
+  prevPage: '&2----<< &6Eelmine '
+  prevPageGui: '&6Eelmine leht '
+  prevPageClean: '&6Eelmine '
+  prevPageOff: '&2----<< &7Eelmine '
   prevPageHover: '&7<<<'
-  nextPage: '&6 Next &2>>----'
-  nextPageGui: '&6Next Page'
-  nextPageClean: '&6 Next'
-  nextPageOff: '&7 Next &2>>----'
+  nextPage: '&6 Järgmine &2>>----'
+  nextPageGui: '&6Järgmine leht'
+  nextPageClean: '&6 Järgmine'
+  nextPageOff: '&7 Järgmine &2>>----'
   nextPageHover: '&7>>>'
   pageCount: '&2[current]&7/&2[total]'
-  pageCountHover: '&e[totalEntries] entries'
-  circle: '&3Circle'
-  square: '&5Square'
+  pageCountHover: '&e[totalEntries] kirjet'
+  circle: '&3Ring'
+  square: '&5Ruut'
   protectedArea: '&cProtected area. Can''t do this here.'
   valueToLong: '&eValue is too high. Max: [max]'
   valueToShort: '&eValue is too low. Min: [min]'
   DamageCause:
-    contact: Block Damage
-    entity_attack: Entity attack
-    entity_sweep_attack: entity sweep attack
-    projectile: Projectile
-    suffocation: Suffocation
-    fall: Fall
-    fire: Fire
-    fire_tick: Fire
-    melting: Melting
-    lava: Lava
-    drowning: Drowning
-    block_explosion: Explosion
-    entity_explosion: Explosion
-    void: Void
-    lightning: Lightning
-    suicide: Suicide
-    starvation: Starvation
-    poison: Poison
-    magic: Magic
-    wither: Wither
-    falling_block: Falling block
-    thorns: Thorns
-    dragon_breath: Dragon breath
-    custom: Unknown
-    fly_into_wall: Fly into wall
-    hot_floor: Magma block
-    cramming: cramming
-    dryout: dryout
+    contact: Plokikahju
+    entity_attack: Olemi rünne
+    entity_sweep_attack: Olemi pühkiv rünne
+    projectile: Viskekeha
+    suffocation: Lämbumine
+    fall: Kukkumine
+    fire: Tuli
+    fire_tick: Tuli
+    melting: Sulamine
+    lava: Laava
+    drowning: Uppumine
+    block_explosion: Plahvatus
+    entity_explosion: Plahvatus
+    void: Tühjus
+    lightning: Välk
+    suicide: Enesetapp
+    starvation: Nälgimine
+    poison: Mürk
+    magic: Maagia
+    wither: Närbumine
+    falling_block: Langev plokk
+    thorns: Okkad
+    dragon_breath: Draakoni hingeõhk
+    custom: Teadmata
+    fly_into_wall: Seina lendamine
+    hot_floor: Magmaplokk
+    cramming: Litsumine
+    dryout: Ära kuivamine
   Biomes:
-    OCEAN: Ocean
-    PLAINS: Plains
-    DESERT: Desert
-    MOUNTAINS: Mountains
-    FOREST: Forest
+    OCEAN: Ookean
+    PLAINS: Tasandik
+    DESERT: Kõrb
+    MOUNTAINS: Mäed
+    FOREST: Mets
     TAIGA: Taiga
-    SWAMP: Swamp
-    RIVER: River
+    SWAMP: Soo
+    RIVER: Jõgi
     NETHER: Nether
-    THE_END: The end
-    FROZEN_OCEAN: Frozen ocean
-    FROZEN_RIVER: Frozen river
-    SNOWY_TUNDRA: Snowy tundra
-    SNOWY_MOUNTAINS: Snowy mountains
-    MUSHROOM_FIELDS: Mushroom fields
-    MUSHROOM_FIELD_SHORE: Mushroom field shore
-    BEACH: Beach
-    DESERT_HILLS: Desert hills
-    WOODED_HILLS: Wooded hills
-    TAIGA_HILLS: Taiga hills
-    MOUNTAIN_EDGE: Mountain edge
-    JUNGLE: Jungle
-    JUNGLE_HILLS: Jungle hills
-    JUNGLE_EDGE: Jungle edge
-    DEEP_OCEAN: Deep ocean
-    STONE_SHORE: Stone shore
-    SNOWY_BEACH: Snowy beach
-    BIRCH_FOREST: Birch forest
-    BIRCH_FOREST_HILLS: Birch forest hills
-    DARK_FOREST: Dark forest
-    SNOWY_TAIGA: Snowy taiga
-    SNOWY_TAIGA_HILLS: Snowy taiga hills
-    GIANT_TREE_TAIGA: Giant tree taiga
-    GIANT_TREE_TAIGA_HILLS: Giant tree taiga hills
-    WOODED_MOUNTAINS: Wooded mountains
-    SAVANNA: Savanna
-    SAVANNA_PLATEAU: Savanna plateau
-    BADLANDS: Badlands
-    WOODED_BADLANDS_PLATEAU: Wooded badlands plateau
-    BADLANDS_PLATEAU: Badlands plateau
-    SMALL_END_ISLANDS: Small end islands
-    END_MIDLANDS: End midlands
-    END_HIGHLANDS: End highlands
-    END_BARRENS: End barrens
-    WARM_OCEAN: Warm ocean
-    LUKEWARM_OCEAN: Lukewarm ocean
-    COLD_OCEAN: Cold ocean
-    DEEP_WARM_OCEAN: Deep warm ocean
-    DEEP_LUKEWARM_OCEAN: Deep lukewarm ocean
-    DEEP_COLD_OCEAN: Deep cold ocean
-    DEEP_FROZEN_OCEAN: Deep frozen ocean
-    THE_VOID: The void
-    SUNFLOWER_PLAINS: Sunflower plains
-    DESERT_LAKES: Desert lakes
-    GRAVELLY_MOUNTAINS: Gravelly mountains
-    FLOWER_FOREST: Flower forest
-    TAIGA_MOUNTAINS: Taiga mountains
-    SWAMP_HILLS: Swamp hills
-    ICE_SPIKES: Ice spikes
-    MODIFIED_JUNGLE: Modified jungle
-    MODIFIED_JUNGLE_EDGE: Modified jungle edge
-    TALL_BIRCH_FOREST: Tall birch forest
-    TALL_BIRCH_HILLS: Tall birch hills
-    DARK_FOREST_HILLS: Dark forest hills
-    SNOWY_TAIGA_MOUNTAINS: Snowy taiga mountains
-    GIANT_SPRUCE_TAIGA: Giant spruce taiga
-    GIANT_SPRUCE_TAIGA_HILLS: Giant spruce taiga hills
-    MODIFIED_GRAVELLY_MOUNTAINS: Modified gravelly mountains
-    SHATTERED_SAVANNA: Shattered savanna
-    SHATTERED_SAVANNA_PLATEAU: Shattered savanna plateau
-    ERODED_BADLANDS: Eroded badlands
-    MODIFIED_WOODED_BADLANDS_PLATEAU: Modified wooded badlands plateau
-    MODIFIED_BADLANDS_PLATEAU: Modified badlands plateau
+    THE_END: End
+    FROZEN_OCEAN: Külmunud ookean
+    FROZEN_RIVER: Külmunud jõgi
+    SNOWY_TUNDRA: Lumine tundra
+    SNOWY_MOUNTAINS: Lumised mäed
+    MUSHROOM_FIELDS: Seeneväljak
+    MUSHROOM_FIELD_SHORE: Seeneväljaku kallas
+    BEACH: Rand
+    DESERT_HILLS: Kõrbekünkad
+    WOODED_HILLS: Metsased künkad
+    TAIGA_HILLS: Taigakünkad
+    MOUNTAIN_EDGE: Mäeserv
+    JUNGLE: Džungel
+    JUNGLE_HILLS: Džunglikünkad
+    JUNGLE_EDGE: Džungliserv
+    DEEP_OCEAN: Sügav ookean
+    STONE_SHORE: Kivine kallas
+    SNOWY_BEACH: Lumine rand
+    BIRCH_FOREST: Kasemets
+    BIRCH_FOREST_HILLS: Kasemetsa künkad
+    DARK_FOREST: Tume mets
+    SNOWY_TAIGA: Lumine taiga
+    SNOWY_TAIGA_HILLS: Lumise taiga künkad
+    GIANT_TREE_TAIGA: Hiidpuudega taiga
+    GIANT_TREE_TAIGA_HILLS: Hiidpuudega taigakünkad
+    WOODED_MOUNTAINS: Metsased mäed
+    SAVANNA: Savann
+    SAVANNA_PLATEAU: Savanniplatoo
+    BADLANDS: Kõnnumaa
+    WOODED_BADLANDS_PLATEAU: Metsane kõnnumaa platoo
+    BADLANDS_PLATEAU: Kõnnumaa platoo
+    SMALL_END_ISLANDS: Väikesed Endisaared
+    END_MIDLANDS: Endi sisemaa
+    END_HIGHLANDS: Endi mägismaa
+    END_BARRENS: Endi viljatu maa
+    WARM_OCEAN: Soe ookean
+    LUKEWARM_OCEAN: Leige ookean
+    COLD_OCEAN: Külm ookean
+    DEEP_WARM_OCEAN: Sügav soe ookean
+    DEEP_LUKEWARM_OCEAN: Sügav leige ookean
+    DEEP_COLD_OCEAN: Sügav külm ookean
+    DEEP_FROZEN_OCEAN: Sügav külmunud ookean
+    THE_VOID: Tühjus
+    SUNFLOWER_PLAINS: Päevalilletasandik
+    DESERT_LAKES: Kõrbejärved
+    GRAVELLY_MOUNTAINS: Kruusased mäed
+    FLOWER_FOREST: Lillemets
+    TAIGA_MOUNTAINS: Taigamäed
+    SWAMP_HILLS: Sookünkad
+    ICE_SPIKES: Jääogad
+    MODIFIED_JUNGLE: Muudetud džungel
+    MODIFIED_JUNGLE_EDGE: Muudetud džungliserv
+    TALL_BIRCH_FOREST: Kõrge kasemets
+    TALL_BIRCH_HILLS: Kõrged kasekünkad
+    DARK_FOREST_HILLS: Tumeda metsa künkad
+    SNOWY_TAIGA_MOUNTAINS: Lumise taiga mäed
+    GIANT_SPRUCE_TAIGA: Hiidkuuskedega taiga
+    GIANT_SPRUCE_TAIGA_HILLS: Hiidkuuskedega taigakünkad
+    MODIFIED_GRAVELLY_MOUNTAINS: Kruusased mäed+
+    SHATTERED_SAVANNA: Lõhestunud savann
+    SHATTERED_SAVANNA_PLATEAU: Lõhestunud savanniplatoo
+    ERODED_BADLANDS: Kulunud kõnnumaa
+    MODIFIED_WOODED_BADLANDS_PLATEAU: Muudetud metsane kõnnumaa platoo
+    MODIFIED_BADLANDS_PLATEAU: Metsane kõnnumaa platoo
   EntityType:
-    area_effect_cloud: Area effect cloud
-    armor_stand: Armor stand
-    arrow: Arrow
-    bat: Bat
-    blaze: Blaze
-    boat: Boat
-    cave_spider: Cave spider
-    chicken: Chicken
-    cod: Cod
-    complex_part: Complex part
-    cow: Cow
+    area_effect_cloud: Mõjupilve ala
+    armor_stand: Rüüalus
+    arrow: Nool
+    bat: Nahkhiir
+    blaze: Lõõm
+    boat: Paat
+    cave_spider: Koopaämblik
+    chicken: Kana
+    cod: Tursk
+    complex_part: Keeruline osa
+    cow: Lehm
     creeper: Creeper
-    dolphin: Dolphin
-    donkey: Donkey
-    dragon_fireball: Dragon fireball
-    dropped_item: Dropped item
-    drowned: Drowned
-    egg: Egg
-    elder_guardian: Elder guardian
+    dolphin: Delfiin
+    donkey: Eesel
+    dragon_fireball: Draakoni tulepall
+    dropped_item: Visatud ese
+    drowned: Uppunu
+    egg: Muna
+    elder_guardian: Vanemkaitsja
     enderman: Enderman
-    endermite: Endermite
-    ender_crystal: Ender crystal
+    endermite: Endermiit
+    ender_crystal: End-kristall
     ender_dragon: Ender dragon
-    ender_pearl: Ender pearl
-    ender_signal: Ender signal
-    evoker: Evoker
-    evoker_fangs: Evoker fangs
-    experience_orb: Experience orb
-    falling_block: Falling block
-    fireball: Fireball
-    firework: Firework
-    fishing_hook: Fishing hook
+    ender_pearl: Enderipärl
+    ender_signal: Enderi silm
+    evoker: Ilmutaja
+    evoker_fangs: Ilmutaja kihvad
+    experience_orb: Kogemuskera
+    falling_block: Langev plokk
+    fireball: Tulepall
+    firework: Ilutulestiku rakett
+    fishing_hook: Õngekork
     ghast: Ghast
-    giant: Giant
-    guardian: Guardian
-    horse: Horse
-    husk: Husk
-    illusioner: Illusioner
-    iron_golem: Iron golem
-    item_frame: Item frame
-    leash_hitch: Leash hitch
-    lightning: Lightning
-    lingering_potion: Lingering potion
-    llama: Llama
-    llama_spit: Llama spit
-    magma_cube: Magma cube
-    minecart: Minecart
-    minecart_chest: Minecart chest
-    minecart_command: Minecart command
-    minecart_furnace: Minecart furnace
-    minecart_hopper: Minecart hopper
-    minecart_mob_spawner: Minecart mob spawner
-    minecart_tnt: Minecart tnt
-    mule: Mule
-    mushroom_cow: Mushroom cow
-    ocelot: Ocelot
-    painting: Painting
-    parrot: Parrot
-    phantom: Phantom
-    pig: Pig
-    pig_zombie: Pig zombie
-    player: Player
-    polar_bear: Polar bear
-    primed_tnt: Primed tnt
-    pufferfish: Pufferfish
-    rabbit: Rabbit
-    salmon: Salmon
-    sheep: Sheep
-    shulker: Shulker
-    shulker_bullet: Shulker bullet
-    silverfish: Silverfish
-    skeleton: Skeleton
-    skeleton_horse: Skeleton horse
-    slime: Slime
-    small_fireball: Small fireball
-    snowball: Snowball
-    snowman: Snowman
-    spectral_arrow: Spectral arrow
-    spider: Spider
-    splash_potion: Splash potion
-    squid: Squid
-    stray: Stray
-    thrown_exp_bottle: Thrown exp bottle
-    tipped_arrow: Tipped arrow
-    trident: Trident
-    tropical_fish: Tropical fish
-    turtle: Turtle
-    unknown: Unknown
-    vex: Vex
-    villager: Villager
-    vindicator: Vindicator
-    weather: Weather
-    witch: Witch
+    giant: Hiiglane
+    guardian: Kaitsja
+    horse: Hobune
+    husk: Kuivik
+    illusioner: Trikielanik
+    iron_golem: Raudgolem
+    item_frame: Esemeraam
+    leash_hitch: Köiesõlm
+    lightning: Välgunool
+    lingering_potion: Pikaldane võlujook
+    llama: Laama
+    llama_spit: Laama sülg
+    magma_cube: Magmakuup
+    minecart: Kaevanduskäru
+    minecart_chest: Kirstuga kaevanduskäru
+    minecart_command: Käsuplokiga kaevanduskäru
+    minecart_furnace: Ahjuga kaevanduskäru
+    minecart_hopper: Püüdjaga kaevanduskäru
+    minecart_mob_spawner: Tekitajaga kaevanduskäru
+    minecart_tnt: Dünamiidiga kaevanduskäru
+    mule: Muul
+    mushroom_cow: Mooshroom
+    ocelot: Otselot
+    painting: Maal
+    parrot: Papagoi
+    phantom: Fantoom
+    pig: Siga
+    pig_zombie: Zombi-seamees
+    player: Mängija
+    polar_bear: Jääkaru
+    primed_tnt: Süüdatud dünamiit
+    pufferfish: Kerakala
+    rabbit: Küülik
+    salmon: Lõhe
+    sheep: Lammas
+    shulker: Šulker
+    shulker_bullet: Šulkeri kuul
+    silverfish: Majasoomukas
+    skeleton: Luukere
+    skeleton_horse: Luukerehobune
+    slime: Limus
+    small_fireball: Väike tulepall
+    snowball: Lumepall
+    snowman: Lumegolem
+    spectral_arrow: Spektraalne nool
+    spider: Ämblik
+    splash_potion: Pritsitav võlujook
+    squid: Kalmaar
+    stray: Eksleja
+    thrown_exp_bottle: Visatud loitsimispudel
+    tipped_arrow: Mõjuga nool
+    trident: Kolmhark
+    tropical_fish: Troopiline kala
+    turtle: Kilpkonn
+    unknown: Tundmatu
+    vex: Pahandaja
+    villager: Külaelanik
+    vindicator: Õigustaja
+    weather: Ilm
+    witch: Nõid
     wither: Wither
-    wither_skeleton: Wither skeleton
-    wither_skull: Wither skull
-    wolf: Wolf
-    zombie: Zombie
-    zombie_horse: Zombie horse
-    zombie_villager: Zombie villager
+    wither_skeleton: Wither-luukere
+    wither_skull: Witheri pealuu
+    wolf: Hunt
+    zombie: Zombi
+    zombie_horse: Zombihobune
+    zombie_villager: Zombi-külaelanik
   EnchantAliases:
     protection_fire:
-    - FireProtection
+    - Tulekaitse
     damage_all:
-    - Sharpness
+    - Teravus
     arrow_fire:
-    - Flame
+    - Leek
     water_worker:
-    - AquaAffinity
+    - Veetõmme
     arrow_knockback:
-    - Punch
+    - Löök
     loyalty:
-    - LOYALTY
+    - Lojaalsus
     depth_strider:
-    - DepthStrider
+    - Sügavuslibiseja
     vanishing_curse:
-    - VanishingCurse
+    - Hääbumise needus
     durability:
-    - Unbreaking
+    - Murdmatus
     knockback:
-    - Knockback
+    - Tagasilöök
     luck:
-    - Luck
+    - Mere õnn
     binding_curse:
-    - BindingCurse
+    - Sidumise needus
     loot_bonus_blocks:
-    - Fortune
+    - Fortunna
     protection_environmental:
-    - Protection
+    - Kaitse
     dig_speed:
-    - Efficiency
+    - Tõhusus
     mending:
-    - Mending
+    - Paikamine
     frost_walker:
-    - FrostWalker
+    - Härmatiskõndija
     lure:
-    - Lure
+    - Sööt
     loot_bonus_mobs:
-    - Looting
+    - Saagikogumine
     protection_explosions:
-    - BlastProtection
+    - Plahvatuskaitse
     damage_undead:
-    - Smite
+    - Hoop
     fire_aspect:
-    - FireAspect
+    - Tulevõim
     channeling:
-    - CHANNELING
+    - Kanaliseerimine
     sweeping_edge:
-    - SweepingEdge
+    - PühkivÄär
     thorns:
-    - Thorns
+    - Okkad
     damage_arthropods:
-    - BaneOfArthropods
+    - Lülijalgsete kirstunael
     oxygen:
-    - Respiration
+    - Hingamine
     riptide:
-    - RIPTIDE
+    - Tagasivool
     silk_touch:
-    - SilkTouch
+    - Siidjas puudutus
     protection_projectile:
-    - ProjectileProtection
+    - Viskekehade kaitse
     impaling:
-    - IMPALING
+    - Teibasseajamine
     protection_fall:
-    - FallProtection
-    - FeatherFalling
+    - Sulgkerge kukkumine
     arrow_damage:
-    - Power
+    - Võim
     arrow_infinite:
-    - Infinity
+    - Lõpmatus
   PotionEffectAliases:
     speed:
-    - Speed
+    - Kiirus
     slow:
-    - Slow
+    - Aeglus
     fast_digging:
-    - Fast digging
+    - Nobedus
     slow_digging:
-    - Slow digging
+    - Kaevandusväsimus
     increase_damage:
-    - Increase damage
+    - Tugevus
     heal:
-    - Heal
+    - Kohene tervis
     harm:
-    - Harm
+    - Kohene kahju
     jump:
-    - Jump
+    - Hüppevõimendus
     confusion:
-    - Confusion
+    - Iiveldus
     regeneration:
-    - Regeneration
+    - Taastumine
     damage_resistance:
-    - Damage resistance
+    - Vastupanu
     fire_resistance:
-    - Fire resistance
+    - Tulekindlus
     water_breathing:
-    - Water breathing
+    - Veehingamine
     invisibility:
-    - Invisibility
+    - Nähtamatus
     blindness:
-    - Blindness
+    - Pimedus
     night_vision:
-    - Night vision
+    - Öös nägemine
     hunger:
-    - Hunger
+    - Nälg
     weakness:
-    - Weakness
+    - Nõrkus
     poison:
-    - Poison
+    - Mürk
     wither:
-    - Wither
+    - Närbumine
     health_boost:
-    - Health boost
+    - Lisatervis
     absorption:
-    - Absorption
+    - Neeldumine
     saturation:
-    - Saturation
+    - Küllastus
     glowing:
-    - Glowing
+    - Hõõgumine
     levitation:
-    - Levitation
+    - Õhkukerkimine
     luck:
-    - Luck
+    - Õnn
     unluck:
-    - Unluck
+    - Halb õnn
     slow_falling:
-    - Slow falling
+    - Aeglane langemine
     conduit_power:
-    - Conduit power
+    - Siirdejõud
     dolphins_grace:
-    - Dolphins grace
+    - Delfiini arm
 modify:
-  middlemouse: '&2Middle mouse click to edit'
-  newItem: '&7Place new item here'
+  middlemouse: '&2Muutmiseks keskmine hiireklõps'
+  newItem: '&7Aseta uus ese siia'
   newLine: '&2<NewLine>'
-  newLineHover: '&2Add new line'
+  newLineHover: '&2Lisa uus rida'
   newPage: '&2<NewPage>'
-  newPageHover: '&2Create new page'
+  newPageHover: '&2Loo uus leht'
   removePage: '&c<RemovePage>'
-  removePageHover: '&cRemove page'
+  removePageHover: '&cEemalda leht'
   deleteSymbol: ' &c[X]'
-  deleteSymbolHover: '&cDelete &e[text]'
+  deleteSymbolHover: '&cKustuta &e[text]'
   extraEditSymbol: ' &6!'
   addSymbol: '&2[+]'
-  addSymbolHover: '&2Add new'
+  addSymbolHover: '&2Lisa uus'
   acceptSymbol: ' &2&l[✔]'
-  acceptSymbolHover: '&aAccept'
+  acceptSymbolHover: '&aNõustu'
   denySymbol: ' &4&l[X]'
-  denySymbolHover: '&cDeny'
+  denySymbolHover: '&cKeeldu'
   enabledSymbol: '&2[+]'
   disabledSymbol: '&c[-]'
-  enabled: '&2Enabled'
-  disabled: '&cDisabled'
-  running: '&2Running'
-  paused: '&cPaused'
+  enabled: '&2Lubatud'
+  disabled: '&cKeelatud'
+  running: '&2Käimas'
+  paused: '&cPeatatud'
   editSymbol: '&e✎'
-  editSymbolHover: '&eEdit &6[text]'
+  editSymbolHover: '&eMuuda &6[text]'
   listUpSymbol: '&6⇑'
-  listUpSymbolHover: '&eUp'
+  listUpSymbolHover: '&eÜles'
   listDownSymbol: '&6⇓'
-  listDownSymbolHover: '&eDown'
-  ChangeHover: '&eClick to change'
+  listDownSymbolHover: '&eAlla'
+  ChangeHover: '&eKlõpsa muutmiseks'
   commandTitle: ' &e--- &6[name] &e---'
   commandList: ' &e[command]  '
   emptyLine: '&7[Empty line]'
@@ -609,49 +608,49 @@ teleportation:
   relocation: '!actionbar!&4Your teleport location was obstructed. You have been teleported
     to a safe location.'
 afk:
-  'on': '&6AFK'
-  'off': '&7Playing'
-  left: '&6[playerDisplayName] &eis no longer AFK'
-  MayNotRespond: '&ePlayer is AFK and may not respond'
-  MayNotRespondStaff: '&eStaff member is AFK and may not respond. Try contacting us
-    through discord'
+  'on': '&6Eemal'
+  'off': '&7Mängib'
+  left: '&6[playerDisplayName] &epole enam eemal'
+  MayNotRespond: '&eMängija on eemal ja ei pruugi vastata'
+  MayNotRespondStaff: '&eMeeskonnaliige on eemal ja ei pruugi vastata. Proovi meiega ühendust võtta
+    Discordi kaudu'
 BossBar:
   hpBar: '&f[victim] &e[max]&f/&e[current] &f(&c-[damage]&f)'
 Potion:
-  Effects: '&8Potion effects'
-  List: '&e[PotionName] [PotionAmplifier] &eDuration: &e[LeftDuration] &esec'
-  NoPotions: '&eNone'
+  Effects: '&8Võlujoogimõjud'
+  List: '&e[PotionName] [PotionAmplifier] &eKestus: &e[LeftDuration] &es'
+  NoPotions: '&ePuuduvad'
 Information:
-  Title: '&8Players information'
-  Health: '&eHealth: &6[Health]/[maxHealth]'
-  Hunger: '&eHunger: &6[Hunger]'
-  Saturation: '&eSaturation: &6[Saturation]'
-  Exp: '&eExp: &6[Exp]'
-  NotEnoughExp: '&eNot enough exp: &6[Exp]'
-  NotEnoughExpNeed: '&eNot enough exp: &6[Exp]/[need]'
-  NotEnoughVotes: '&eNot enough votes: &6[votes]'
-  BadGameMode: '&cYou can''t do this in your current game mode'
-  BadArea: '&cYou can''t perform this action in this area'
-  GameMode: '&eGameMode: &6[GameMode]'
-  GodMode: '&eGodMode: &6[GodMode]'
-  Flying: '&eFlying: &6[Flying]'
-  CanFly: '&eCan Fly: &6[CanFly]'
+  Title: '&8Mängija teave'
+  Health: '&eTervis: &6[Health]/[maxHealth]'
+  Hunger: '&eNälg: &6[Hunger]'
+  Saturation: '&eKüllastus: &6[Saturation]'
+  Exp: '&eKogemusp.: &6[Exp]'
+  NotEnoughExp: '&ePole piisavalt kogemusp.: &6[Exp]'
+  NotEnoughExpNeed: '&ePole piisavalt kogemusp.: &6[Exp]/[need]'
+  NotEnoughVotes: '&ePole piisavalt hääli: &6[votes]'
+  BadGameMode: '&cSa ei saa seda praeguses mängurežiimis teha'
+  BadArea: '&cSa ei saa seda tegevust siin alas teha'
+  GameMode: '&eMängurežiim: &6[GameMode]'
+  GodMode: '&eJumalarežiim: &6[GodMode]'
+  Flying: '&eLendab: &6[Flying]'
+  CanFly: '&eSaab lennata: &6[CanFly]'
   Uuid: '&6[uuid]'
-  ip: '&eIp address: &6[address]'
-  FirstConnection: '&eFirst connection: &6[time]'
-  Lastseen: '&eLast seen: &6[time]'
-  Onlinesince: '&eOnline since: &6[time]'
-  Money: '&eBalance: &6[money]'
-  Group: '&eGroup: &6[group]'
+  ip: '&eIP-aadress: &6[address]'
+  FirstConnection: '&eEsimene ühendus: &6[time]'
+  Lastseen: '&eViimati nähtud: &6[time]'
+  Onlinesince: '&eVõrgus alates: &6[time]'
+  Money: '&eRahasumma: &6[money]'
+  Group: '&eGrupp: &6[group]'
 econ:
-  disabled: '&cCan''t use this command while economy support is disabled'
-  noMoney: '&cYou have no money'
+  disabled: '&cSa ei saa seda käsklust kasutada kui ökonoomia tugi on keelatud'
+  noMoney: '&cSul pole raha'
 Elytra:
-  Speed: '&eSpeed: &6[speed]&ekm/h'
+  Speed: '&eKiirus: &6[speed]&ekm/h'
   SpeedBoost: ' &a+ '
   SpeedSuperBoost: ' &2+ '
-  CanUse: '&cCan''t equip elytra without permission!'
-  Charging: '&eCharging &f[percentage]&e%'
+  CanUse: '&cPuudub luba kattetiibade kandmiseks!'
+  Charging: '&eLaadimine &f[percentage]&e%'
 Selection:
   SelectPoints: '&cSelect 2 points with selection tool! AKA: &6[tool]'
   PrimaryPoint: '&ePlaced &6Primary &eSelection Point [point]'
@@ -673,7 +672,7 @@ Location:
   Pitch: '&ePitch: &6[pitch]'
   Yaw: '&eYaw: &6[yaw]'
 Ender:
-  Title: '&7Open ender chest'
+  Title: '&7Ava enderikirst'
 Chat:
   localPrefix: ''
   shoutPrefix: '&c[S]&r'
@@ -690,15 +689,15 @@ Chat:
 command:
   help:
     output:
-      usage: '&eUsage: &7%usage%'
+      usage: '&eKasutus: &7%usage%'
       cmdInfoFormat: '[command] &f- &e[description]'
       cmdFormat: '&6/[command]&f[arguments]'
       helpPageDescription: '&e* [description]'
       explanation: '&e * [explanation]'
-      title: '&e------ ======= &6Help&e &e======= ------'
+      title: '&e------ ======= &6Abi&e &e======= ------'
   nocmd:
     help:
-      info: '&eShows all available commands'
+      info: '&eKuvab kõiki saadaolevaid käskluseid'
       args: ''
   actionbarmsg:
     help:
@@ -3317,128 +3316,128 @@ command:
       distanceKm: '&e[value]&6km'
       list: '&e[name]:&6[amount]'
       listCover: '&e([list]&e)'
-      Quit: '&eGames Quit: &6[value]'
-      PlayTime: '&eTime Played: &6[value]'
-      SneakTime: '&eSneak time: &6[value]'
-      Sleep: '&eSleep in bed: &6[value]'
-      Joined: '&eJoined on: &6[time]'
-      Jumps: '&eJumps: &6[value]'
-      SinceDeath: '&eSince Last Death: &6[value]'
-      Deaths: '&eNumber of Deaths: &6[value]'
-      DeathsByMonsters: '&eKilled by monsters: &6[value]'
-      TotalDistance: '&eTotal distance traveled: &6[value]'
-      Walk: '&eWalked: &6[value]'
-      Crouch: '&eCrouched: &6[value]'
-      Sprint: '&eSprinted: &6[value]'
-      Swim: '&eSwum: &6[value]'
-      Fall: '&eFallen: &6[value]'
-      Climb: '&eClimbed: &6[value]'
-      Fly: '&eFlown: &6[value]'
-      Dive: '&eDove: &6[value]'
-      Minecart: '&eMinecart: &6[value]'
-      Boat: '&eBoat: &6[value]'
-      Pig: '&ePig: &6[value]'
-      Horse: '&eHorse: &6[value]'
-      Elytra: '&eElytra: &6[value]'
-      Damage: '&eDamage &6[dealt] [taken]'
-      DamageDealt: '&eDealt: &6[value]'
-      DamageTaken: '&eTaken: &6[value]'
-      JUMP: '&eJumps: &6[value]'
-      Kills: '&eKills &6'
-      KillsMob: '&eMob: &6[value]'
-      KillsPlayer: ' &ePlayer: &6[value]'
-      Blocks: '&eBlocks &6'
-      BlocksMined: '&eMined: &6[value]'
-      BlocksPlaced: ' &ePlaced: &6[value]'
-      Items: '&eItems &6'
-      ItemsUsed: '&eUse:&6[value]'
-      ItemsDrop: '&eDrop:&6[value]'
-      ItemsPicked: '&ePick:&6[value]'
-      ItemsBroken: '&eBroke:&6[value]'
-      ItemsCrafted: ' &eCraft:&6[value]'
-      ItemsEnchanted: ' &eEnchant:&6[value]'
-      Opened: '&eOpened &6[list]'
-      OpenChest: '&eChest:&6[value]'
-      OpenEnder: '&eEnderChest:&6[value]'
-      OpenShulker: '&eShulkerBox:&6[value]'
-      Interacted: '&eInteracted &6[list]'
-      InteractBeacon: '&eBeacon:&6[value]'
-      InteractBrewingStand: '&eBrewStand:&6[value]'
-      InteractCraftTable: '&eCraftTable:&6[value]'
-      InteractFurnace: '&eFurnace:&6[value]'
-      Inspected: '&eInspected &6[list]'
-      InspectDispenser: '&eDispenser:&6[value]'
-      InspectDropper: '&eDropper:&6[value]'
-      InspectHopper: '&eHopper:&6[value]'
+      Quit: '&eMängust lahkumisi: &6[value]'
+      PlayTime: '&eMängitud aeg: &6[value]'
+      SneakTime: '&eHiilitud aeg: &6[value]'
+      Sleep: '&eVoodis magamise kordi: &6[value]'
+      Joined: '&eLiitus: &6[time]'
+      Jumps: '&eHüppeid: &6[value]'
+      SinceDeath: '&eAega viimasest surmast: &6[value]'
+      Deaths: '&eSurmasid: &6[value]'
+      DeathsByMonsters: '&eKoletiste poolt tapetud: &6[value]'
+      TotalDistance: '&eLäbitud vahemaa kokku: &6[value]'
+      Walk: '&eKõnnitud: &6[value]'
+      Crouch: '&eHiilitud: &6[value]'
+      Sprint: '&eJoostud: &6[value]'
+      Swim: '&eUjutud: &6[value]'
+      Fall: '&eKukutud: &6[value]'
+      Climb: '&eRonitud: &6[value]'
+      Fly: '&eLennatud: &6[value]'
+      Dive: '&eSukeldatud: &6[value]'
+      Minecart: '&eKaevanduskäru: &6[value]'
+      Boat: '&ePaat: &6[value]'
+      Pig: '&eSiga: &6[value]'
+      Horse: '&eHobune: &6[value]'
+      Elytra: '&eKattetiivad: &6[value]'
+      Damage: '&eKahju &6[dealt] [taken]'
+      DamageDealt: '&ePõhjustatud: &6[value]'
+      DamageTaken: '&eSaadud: &6[value]'
+      JUMP: '&eHüppeid: &6[value]'
+      Kills: '&eTapmisi &6'
+      KillsMob: '&eElukaid: &6[value]'
+      KillsPlayer: ' &eMängijaid: &6[value]'
+      Blocks: '&ePlokke &6'
+      BlocksMined: '&eKaevandatud: &6[value]'
+      BlocksPlaced: ' &eAsetatud: &6[value]'
+      Items: '&eEsemeid &6'
+      ItemsUsed: '&eKasutatud:&6[value]'
+      ItemsDrop: '&eVisatud:&6[value]'
+      ItemsPicked: '&eKorjatud:&6[value]'
+      ItemsBroken: '&eLõhutud:&6[value]'
+      ItemsCrafted: ' &eMeisterdatud:&6[value]'
+      ItemsEnchanted: ' &eLoitsitud:&6[value]'
+      Opened: '&eAvatud &6[list]'
+      OpenChest: '&eKirste:&6[value]'
+      OpenEnder: '&eEnderikirste:&6[value]'
+      OpenShulker: '&eŠulkerikaste:&6[value]'
+      Interacted: '&eTegutsetud &6[list]'
+      InteractBeacon: '&eMajakaga:&6[value]'
+      InteractBrewingStand: '&ePruulimisalusega:&6[value]'
+      InteractCraftTable: '&eMeisterduslauaga:&6[value]'
+      InteractFurnace: '&eAhjuga:&6[value]'
+      Inspected: '&eLäbiotsitud &6[list]'
+      InspectDispenser: '&eJaotureid:&6[value]'
+      InspectDropper: '&eHeitjaid:&6[value]'
+      InspectHopper: '&ePüüdjaid:&6[value]'
       Statistics:
-        LEAVE_GAME: Game quit
-        PLAY_ONE_TICK: Play time
-        TIME_SINCE_DEATH: From last death
-        TIME_SINCE_REST: From last rest
-        SNEAK_TIME: Sneak time
-        ACOUNT_AGE: Account age
-        TRAVEL: Travel
-        WALK_ONE_CM: Walk
-        CROUCH_ONE_CM: Sneak
-        SPRINT_ONE_CM: Sprint
-        SWIM_ONE_CM: Swim
-        FALL_ONE_CM: Fall
-        CLIMB_ONE_CM: Climb
-        FLY_ONE_CM: Fly
-        DIVE_ONE_CM: Dive
-        WALK_UNDER_WATER_ONE_CM: Walk under water
-        WALK_ON_WATER_ONE_CM: Walk on water
-        MINECART_ONE_CM: Minecart travel
-        BOAT_ONE_CM: Boat travel
-        PIG_ONE_CM: Pig travel
-        HORSE_ONE_CM: Horse travel
-        AVIATE_ONE_CM: Elytra travel
-        JUMP: Jump
-        DAMAGE_DEALT: Damage dealt
-        DAMAGE_TAKEN: Damage taken
-        DAMAGE_DEALT_ABSORBED: Damage dealt absorbed
-        DAMAGE_DEALT_RESISTED: Damage dealt resisted
-        DAMAGE_BLOCKED_BY_SHIELD: Damage blocked by shield
-        DAMAGE_ABSORBED: Damage absorbed
-        DAMAGE_RESISTED: Damage resisted
-        DEATHS: Deaths
-        ENTITY_KILLED_BY: Killed by
-        MOB_KILLS: Mob kills
-        PLAYER_KILLS: Player kills
-        ITEM_ENCHANTED: Item enchanted
-        ANIMALS_BRED: Animals bred
-        FISH_CAUGHT: Fish caught
-        TALKED_TO_VILLAGER: Talked to villager
-        TRADED_WITH_VILLAGER: Traded with villager
-        CAKE_SLICES_EATEN: Cake slices eaten
-        CAULDRON_FILLED: Cauldron filled
-        CAULDRON_USED: Couldron used
-        ARMOR_CLEANED: Armor cleaned
-        BANNER_CLEANED: Banner cleaned
-        BREWINGSTAND_INTERACTION: Brewing stand interactions
-        BEACON_INTERACTION: Beacon interactions
-        CRAFTING_TABLE_INTERACTION: Crafting table interactions
-        FURNACE_INTERACTION: Furnace interactions
-        DISPENSER_INSPECTED: Dispenser inspected
-        DROPPER_INSPECTED: Dropper inspected
-        HOPPER_INSPECTED: Hopper inspected
-        CHEST_OPENED: Chest open
-        TRAPPED_CHEST_TRIGGERED: Trapped chest triggered
-        ENDERCHEST_OPENED: Ender chest opened
-        NOTEBLOCK_PLAYED: Noteblock played
-        NOTEBLOCK_TUNED: Noteblock tuned
-        FLOWER_POTTED: Flower potted
-        RECORD_PLAYED: Record played
-        SLEEP_IN_BED: Slept in bed
-        SHULKER_BOX_OPENED: Shulker box opened
-        CLEAN_SHULKER_BOX: Shulker box cleaned
-        DROP: Item dropped
-        MINE_BLOCK: Blocks mined
-        BREAK_ITEM: Item breaks
-        CRAFT_ITEM: Item crafts
-        USE_ITEM: Items used
-        PICKUP: Item pickups
-        KILL_ENTITY: Monster kills
+        LEAVE_GAME: Mängust lahkumisi
+        PLAY_ONE_TICK: Mängitud aeg
+        TIME_SINCE_DEATH: Aega viimasest surmast
+        TIME_SINCE_REST: Aega viimasest magamisest
+        SNEAK_TIME: Hiilitud aeg
+        ACOUNT_AGE: Konto aeg
+        TRAVEL: Läbitud vahemaa
+        WALK_ONE_CM: Kõnnitud vahemaa
+        CROUCH_ONE_CM: Hiilitud vahemaa
+        SPRINT_ONE_CM: Joostud vahemaa
+        SWIM_ONE_CM: Ujutud vahemaa
+        FALL_ONE_CM: Kukutud vahemaa
+        CLIMB_ONE_CM: Ronitud vahemaa
+        FLY_ONE_CM: Lennatud vahemaa
+        DIVE_ONE_CM: Sukeldatud vahemaa
+        WALK_UNDER_WATER_ONE_CM: Vee all kõnnitud vahemaa
+        WALK_ON_WATER_ONE_CM: Vee peal kõnnitud vahemaa
+        MINECART_ONE_CM: Kaevanduskäruga läbitud vahemaa
+        BOAT_ONE_CM: Paadiga läbitud vahemaa
+        PIG_ONE_CM: Seaga läbitud vahemaa
+        HORSE_ONE_CM: Hobusega läbitud vahemaa
+        AVIATE_ONE_CM: Kattetiibadega läbitud vahemaa
+        JUMP: Hüppeid
+        DAMAGE_DEALT: Kahju põhjustatud
+        DAMAGE_TAKEN: Kahju saadud
+        DAMAGE_DEALT_ABSORBED: Neeldunud kahju põhjustatud
+        DAMAGE_DEALT_RESISTED: Tõkestatud kahju põhjustatud
+        DAMAGE_BLOCKED_BY_SHIELD: Kilbiga blokeeritud kahju
+        DAMAGE_ABSORBED: Neeldunud kahju
+        DAMAGE_RESISTED: Tõkestatud kahju
+        DEATHS: Surmasid
+        ENTITY_KILLED_BY: Tapetud olemi poolt:
+        MOB_KILLS: Elukaid tapetud
+        PLAYER_KILLS: Mängijaid tapetud
+        ITEM_ENCHANTED: Esemeid loitsitud
+        ANIMALS_BRED: Loomi paaritatud
+        FISH_CAUGHT: Kalu püütud
+        TALKED_TO_VILLAGER: Külaelanikega räägitud
+        TRADED_WITH_VILLAGER: Külaelanikega kaubeldud
+        CAKE_SLICES_EATEN: Koogiviile söödud
+        CAULDRON_FILLED: Padasid täidetud
+        CAULDRON_USED: Vett pajast võetud
+        ARMOR_CLEANED: Rüü osi puhastatud
+        BANNER_CLEANED: Plakateid puhastatud
+        BREWINGSTAND_INTERACTION: Pruulimisalusega tegutsemisi
+        BEACON_INTERACTION: Majakaga tegutsemisi
+        CRAFTING_TABLE_INTERACTION: Meisterduslauaga tegutsemisi
+        FURNACE_INTERACTION: Ahjuga tegutsemisi
+        DISPENSER_INSPECTED: Jaotureid läbiotsitud
+        DROPPER_INSPECTED: Heitjaid läbiotsitud
+        HOPPER_INSPECTED: Püüdjaid läbiotsitud
+        CHEST_OPENED: Kirste avatud
+        TRAPPED_CHEST_TRIGGERED: Püüniskirste käivitatud
+        ENDERCHEST_OPENED: Enderikirste avatud
+        NOTEBLOCK_PLAYED: Noodiplokke mängitud
+        NOTEBLOCK_TUNED: Noodiplokke häälestatud
+        FLOWER_POTTED: Taimi potti istutatud
+        RECORD_PLAYED: Muusikaplaate mängitud
+        SLEEP_IN_BED: Voodis magamise kordi
+        SHULKER_BOX_OPENED: Šulkerikaste avatud
+        CLEAN_SHULKER_BOX: Šulkerikaste puhastatud
+        DROP: Esemeid maha visatud
+        MINE_BLOCK: Plokke kaevandatud
+        BREAK_ITEM: Esemeid lõhutud
+        CRAFT_ITEM: Esemeid meisterdatud
+        USE_ITEM: Esemeid kasutatud
+        PICKUP: Esemeid korjatud
+        KILL_ENTITY: Koletisi tapetud
   statsedit:
     help:
       info: '&eEdit players statistics'
@@ -3457,11 +3456,11 @@ command:
       CpuUsage: ' &eCpu usage: &6[cpuusage]% &e(&6[cores] cores&e)'
       Uptime:
         main: ' &eUptime: '
-        weeks: '&e[weeks] &6weeks '
-        days: '&e[days] &6days '
-        hours: '&e[hours] &6hours '
-        mins: '&e[mins] &6mins '
-        secs: '&e[secs] &6secs '
+        weeks: '&e[weeks] &6nädalat '
+        days: '&e[days] &6päeva '
+        hours: '&e[hours] &6tundi '
+        mins: '&e[mins] &6min '
+        secs: '&e[secs] &6s '
       MemoryUsage: ' &eMemory usage: &6[percent]% &e(&6[current]&e/&6[max] MB&e)'
       MemoryUsageHover: "&fFree: &7[free] \n&fAllocated: &7[allocated] \n&fMax: &7[max]\
         \ \n&fTotal: &7[total]"
